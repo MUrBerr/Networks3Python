@@ -87,7 +87,8 @@ def main():
 
                 print("Exiting...")
                 sys.exit(EXIT_CODES[0])
-
+    socket.shutdown()
+    socket.close()
 
 if __name__ == "__main__":
     main()

@@ -77,7 +77,8 @@ def main():
                     for i in range(len(renu_times)):
                         print(f"seq={i} reno={renu_times[i]} cubic={cubic_times[i]}")
                     break
-
+    socket.shutdown()
+    socket.close()
 
 if __name__ == "__main__":
     main()
