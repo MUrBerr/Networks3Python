@@ -13,7 +13,7 @@ TIMEOUT = 0.001
 CONTINUE_MSG = b"Continue"
 EXIT_MSG = b"Exit"
 EXIT_CODES = (0, 1)
-AUTH = f"{int(1763 ^ 1818)}".encode()
+AUTH = f"{int(5965 ^ 7788)}".encode()
 BUFFER_SIZE = io.DEFAULT_BUFFER_SIZE
 CC = (b"reno", b"cubic")
 
